@@ -9,6 +9,8 @@ def e_cuadratica(n):
 
 def e_lineal(n):
     # Implemente esta función
-    for i in n:
-   		a = sum(1/factorial(i))
+    i = 0
+    a = 1
+    while i < n:
+   		a = a + 1/factorial(i)
     return a
